@@ -1,0 +1,257 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+#nav{
+    height: 7vh;
+    background-color: black;
+    font-size: x-large  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#name{
+    margin: 8px;
+    padding: 2%;
+}
+#opt{
+    display: flex;
+    flex-direction: row;
+}
+#searchopt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.option{
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    #searchopt{
+        display: none;
+    }
+  }
+#boxone{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    background-color: black;
+    justify-content:space-around;
+    align-items: center;
+}
+#profilebox{
+    background-image: url(profile.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+.boxc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#boxtwo{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    /* margin: 2%; */
+    justify-content: space-around;
+}
+.boxd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 1%;
+    border-radius: 9%;
+    margin: 2%;
+}
+#prbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxthree{
+    background-color: black;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+
+}
+.boxe{
+    height:80px;
+    width: 80px;
+    margin: 3%;
+    border-radius: 50%;
+}
+#boxeone{
+    background-image: url(boxeone.jpg);
+    background-size: cover;
+}
+#boxetwo{
+    background-image: url(boxetwo.jpg);
+    background-size: cover;
+}
+#boxethree{
+    background-image: url(boxethree.jpg);
+    background-size: cover;
+}
+#boxefour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: groove;
+}
+.boxfour{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+    background-color: black;
+}
+#contentbox{
+    display: flex;
+    flex-direction: row;
+}
+.boxg{
+    display: flex;
+    flex-direction: column;
+    max-width: 33%;
+    height: auto;
+}
+.boxh{
+    background-size: cover;
+}
+footer{
+    position:fixed;
+    top: 94%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 1%;
+}
+@media only screen and (min-width: 992px) {
+    #nav{
+        display: none;
+    }
+    #boxone{
+        display: none;
+    }
+    #boxtwo{
+        display: none;
+    }
+    .boxthree{
+        display: none;
+    }
+    .boxfour{
+        display: none;    
+    }
+    #contentbox{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    .boxe{
+        height:70px;
+        width: 70px;
+        margin: 3%;
+        border-radius: 50%;
+    }
+    
+
+}
+#data{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+
+}
+.datao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6%;
+}
+.blocka{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.opto{
+    display: flex;
+    flex-direction: row;
+    margin: 19%;
+    margin-top: 29%;
+}
+.optoa{
+    margin: 2%;
+}
+.block1{
+    position: sticky;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: gray;
+    margin-left: 0%;
+    font-size: larger;
+}
+.insta{
+    margin: 14px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    /* display: none; */
+    @media only screen and (max-width: 992px){
+        display: none;
+
+    }
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#searchbox{
+    margin: 4%;
+}
+#picturebox{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+.block3{
+    margin: 4%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-content: center;
+}
+#mypic{
+    width: 80%;
+    margin: 10%;
+    margin-top: 35%;
+    border-radius: 50%;
+}
+.block3a{
+    display: flex;
+    justify-content: space-around;
+}
